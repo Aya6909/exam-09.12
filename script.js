@@ -17,7 +17,7 @@ function changeSchoolName(){
     let newNameSchool = prompt('жаңа атауды жазыңыз: ');
     if (newNameSchool){
         school.name = newNameSchool;
-        alert(`Дүкеннің жаңа атауы: ${school.name}`);
+        alert(`Мектеп жаңа атауы: ${school.name}`);
     }
 }
 
